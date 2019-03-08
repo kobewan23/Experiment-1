@@ -1,0 +1,33 @@
+//Number 2//
+
+#include <iostream>
+#include <string>
+#include <conio.h>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+   
+float mass,density, volume ;
+
+//Input
+
+  cout <<"Enter mass (in grams):"<<endl; 
+	cin >> mass;
+  cout <<"Enter density (in cubic centimeters):"<<endl;
+	cin >> density;
+
+//Formula
+volume= mass/density;
+
+//Output
+
+cout <<"The volume is: "<<endl;
+cout << setprecision(2) << volume << endl;
+		  
+ _getch();
+
+return 0;
+}
