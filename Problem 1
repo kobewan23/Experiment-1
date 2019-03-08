@@ -1,0 +1,103 @@
+//Number 1//
+
+#include <iostream>
+#include <string>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+   
+  double total1, total2, total3, total4;
+  int box, side, ga, pre, tquantityga1, tquantityb1, tquantitys1, tquantityp1;
+  int tquantityga2, tquantityb2, tquantitys2, tquantityp2;
+  int tquantityga3, tquantityb3, tquantitys3, tquantityp3;
+  int tquantityga4, tquantityb4, tquantitys4, tquantityp4;
+  ga=50;
+  box=100;
+  side=200;
+  pre=500;
+   
+  //Ticket prices
+	cout <<"Ticket price for General Admission: 50"<<endl;
+	cout <<"Ticket price for Box: 100 "<<endl;
+	cout <<"Ticket price for Sideline: 200 "<<endl;
+	cout <<"Ticket price for Premium: 500"<<endl;
+
+  //Ticket quantity Game 1
+	cout <<"Enter number of tickets sold for the General Admission in Game 1"<< endl;
+		cin >> tquantityga1;
+	cout <<"Enter number of tickets sold for the Box in Game 1"<< endl;
+		cin >> tquantityb1;
+	cout <<"Enter number of tickets sold for the Sideline in Game 1"<< endl;
+		cin >> tquantitys1;
+	cout <<"Enter number of tickets sold for the Premium in Game 1"<< endl;
+		cin >> tquantityp1;
+	
+  //Ticket total Game 1
+	total1= (ga*tquantityga1)+(side*tquantitys1)+(box*tquantityb1)+(pre*tquantityp1);
+	cout <<"Total amount of sales for General admission in Game 1: "<< ga*tquantityga1 <<endl;
+	cout <<"Total amount of sales for Box in Game 1: "<< box*tquantityb1 <<endl;
+	cout <<"Total amount of sales for Sideline in Game 1: "<< side*tquantitys1 <<endl;
+	cout <<"Total amount of sales for Premium in Game 1: "<< pre*tquantityp1 <<endl;
+	cout <<"Total number of sales in Game 1: " << total1 <<endl;
+	
+  //Ticket quantity Game 2
+	cout <<"Enter number of tickets sold for the General Admission in Game 2"<< endl;
+		cin >> tquantityga2;
+	cout <<"Enter number of tickets sold for the Box in Game 2"<< endl;
+		cin >> tquantityb2;
+	cout <<"Enter number of tickets sold for the Sideline in Game 2"<< endl;
+		cin >> tquantitys2;
+	cout <<"Enter number of tickets sold for the Premium in Game 2"<< endl;
+		cin >> tquantityp2;
+  	
+  //Ticket total Game 2
+	total2= (ga*tquantityga2)+(side*tquantitys2)+(box*tquantityb2)+(pre*tquantityp2);
+	cout <<"Total amount of sales for General admission in Game 2: "<< ga*tquantityga2 <<endl;
+	cout <<"Total amount of sales for Box in Game 2: "<< box*tquantityb2 <<endl;
+	cout <<"Total amount of sales for Sideline in Game 2: "<< side*tquantitys2 <<endl;
+	cout <<"Total amount of sales for Premium in Game 2: "<< pre*tquantityp2 <<endl;
+	cout <<"Total number of sales in Game 2: " << total2 <<endl;
+
+  //Ticket quantity Game 3
+	cout <<"Enter number of tickets sold for the General Admission in Game 3"<< endl;
+		cin >> tquantityga3;
+	cout <<"Enter number of tickets sold for the Box in Game 3"<< endl;
+		cin >> tquantityb3;
+	cout <<"Enter number of tickets sold for the Sideline in Game 3"<< endl;
+		cin >> tquantitys3;
+	cout <<"Enter number of tickets sold for the Premium in Game 3"<< endl;
+		cin >> tquantityp3;
+
+   //Ticket total Game 3
+	total3= (ga*tquantityga3)+(side*tquantitys3)+(box*tquantityb3)+(pre*tquantityp3);
+	cout <<"Total amount of sales for General admission in Game 3: "<< ga*tquantityga3 <<endl;
+	cout <<"Total amount of sales for Box in Game 3: "<< box*tquantityb3 <<endl;
+	cout <<"Total amount of sales for Sideline in Game 3: "<< side*tquantitys3 <<endl;
+	cout <<"Total amount of sales for Premium in Game 3: "<< pre*tquantityp3 <<endl;
+	cout <<"Total number of sales in Game 3: " << total3 <<endl;
+
+  //Ticket quantity Game 4
+	cout <<"Enter number of tickets sold for the General Admission in Game 4"<< endl;
+		cin >> tquantityga4;
+	cout <<"Enter number of tickets sold for the Box in Game 4"<< endl;
+		cin >> tquantityb4;
+	cout <<"Enter number of tickets sold for the Sideline in Game 4"<< endl;
+		cin >> tquantitys4;
+	cout <<"Enter number of tickets sold for the Premium in Game 4"<< endl;
+		cin >> tquantityp4;
+
+	//Ticket total Game 4
+	total4= (ga*tquantityga4)+(side*tquantitys4)+(box*tquantityb4)+(pre*tquantityp4);
+	cout <<"Total amount of sales for General admission in Game 4: "<< ga*tquantityga4 <<endl;
+	cout <<"Total amount of sales for Box in Game 4: "<< box*tquantityb4 <<endl;
+	cout <<"Total amount of sales for Sideline in Game 4: "<< side*tquantitys4 <<endl;
+	cout <<"Total amount of sales for Premium in Game 4: "<< pre*tquantityp4 <<endl;
+	cout <<"Total number of sales in Game 4: " << total4 <<endl;
+
+	_getch();
+
+return 0;
+}
