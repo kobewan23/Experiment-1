@@ -1,0 +1,38 @@
+//Number 3//
+
+#include <iostream>
+#include <string>
+#include <conio.h>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+   
+float netbal,pay, intpermonth, interest, avg;
+int d1, d2;
+
+//Input
+
+  cout <<"Enter Net Balance:"<<endl; 
+	cin >> netbal;
+  cout <<"Enter Payment made:"<<endl;
+	cin >>pay;
+  cout <<"Enter number of days in the billing cycle:"<<endl;
+	cin >>d1;
+  cout <<"Enter number of days payment is made before billing cycle:"<<endl;
+	cin >>d2;
+  
+//Formula
+avg= ((netbal * d1)-(pay * d2)) / d1;
+interest = avg * 0.0152;
+
+//Output
+	cout <<"The interest is:"<< setprecision(3) << interest << endl;
+	
+
+ _getch();
+
+return 0;
+}
